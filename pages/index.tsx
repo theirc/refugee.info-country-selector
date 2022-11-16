@@ -1,7 +1,5 @@
 import { Button } from 'antd';
 import Head from 'next/head';
-import Link from 'next/link';
-import styles from '../styles/Home.module.css';
 
 interface Site {
   name: string;
