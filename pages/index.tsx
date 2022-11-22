@@ -1,5 +1,8 @@
 import { Button } from 'antd';
 import Head from 'next/head';
+import Image from 'next/image';
+
+import CuentanosLogo from '../public/LOGO-CUENTANOS.png';
 
 interface Site {
   name: string;
@@ -44,7 +47,7 @@ export default function Home() {
           className="locale-select-page-content"
           style={{ display: 'flex', flexDirection: 'column' }}
         >
-          {/* {image} */}
+          <Image src={CuentanosLogo} alt="logo" />
           <div className="locale-select-page-message">{message}</div>
           {sites.map((site) => (
             <LocaleSelectButton
