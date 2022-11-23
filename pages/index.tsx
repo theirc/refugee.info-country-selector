@@ -18,9 +18,9 @@ const siteTitle = 'CuentaNos';
 const message =
   'Información confiable para el empoderamiento de la población en el norte de Centroamérica';
 const sites: Site[] = [
-  { name: 'El Salvador', url: 'https://signpost-elsalvador.zendesk.com/hc/es' },
-  { name: 'Guatemala', url: 'https://signpost-guatemala.zendesk.com/hc/es' },
-  { name: 'Honduras', url: 'https://signpost-honduras.zendesk.com/hc/es' },
+  { name: 'El Salvador', url: 'https://elsalvador.cuentanos.org/es' },
+  { name: 'Guatemala', url: 'https://guatemala.cuentanos.org/es' },
+  { name: 'Honduras', url: 'https://honduras.cuentanos.org/es' },
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
