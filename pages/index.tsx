@@ -18,9 +18,9 @@ const siteTitle = 'CuentaNos';
 const message =
   'Información confiable para el empoderamiento de la población en el norte de Centroamérica';
 const sites: Site[] = [
-  { name: 'El Salvador', url: 'https://cuentanos-el-salvador.vercel.app/es' },
-  { name: 'Guatemala', url: 'https://cuentanos-guatemala.vercel.app/es' },
-  { name: 'Honduras', url: 'https://cuentanos-honduras.vercel.app/es' },
+  { name: 'El Salvador', url: 'https://signpost-elsalvador.zendesk.com/hc/es' },
+  { name: 'Guatemala', url: 'https://signpost-guatemala.zendesk.com/hc/es' },
+  { name: 'Honduras', url: 'https://signpost-honduras.zendesk.com/hc/es' },
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
