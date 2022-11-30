@@ -14,13 +14,14 @@ interface LocaleSelectButtonProps {
   onClick: (e: React.SyntheticEvent) => void;
 }
 
-const siteTitle = 'CuentaNos';
+const siteTitle = 'Refugee.info';
 const message =
-  'Información confiable para el empoderamiento de la población en el norte de Centroamérica';
+  'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
-  { name: 'El Salvador', url: 'https://elsalvador.cuentanos.org/es' },
-  { name: 'Guatemala', url: 'https://guatemala.cuentanos.org/es' },
-  { name: 'Honduras', url: 'https://honduras.cuentanos.org/es' },
+  { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
+  { name: 'Hungary', url: 'https://hungary.refugee.info/en-us' },
+  { name: 'Italy', url: 'https://italy.refugee.info/en-us' },
+  { name: 'Bulgaria', url: 'https://bulgaria.refugee.info/en-us'},
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
