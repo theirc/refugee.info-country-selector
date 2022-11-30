@@ -2,7 +2,7 @@ import { Button } from 'antd';
 import Head from 'next/head';
 import Image from 'next/image';
 
-import CuentanosLogo from '../public/LOGO-CUENTANOS.png';
+import RefugeeLogo from '../public/LOGO-refugee.png';
 
 interface Site {
   name: string;
@@ -14,13 +14,14 @@ interface LocaleSelectButtonProps {
   onClick: (e: React.SyntheticEvent) => void;
 }
 
-const siteTitle = 'CuentaNos';
+const siteTitle = 'Refugee.info';
 const message =
-  'Información confiable para el empoderamiento de la población en el norte de Centroamérica';
+  'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
-  { name: 'El Salvador', url: 'https://elsalvador.cuentanos.org/es' },
-  { name: 'Guatemala', url: 'https://guatemala.cuentanos.org/es' },
-  { name: 'Honduras', url: 'https://honduras.cuentanos.org/es' },
+  { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
+  { name: 'Hungary', url: 'https://hungary.refugee.info/en-us' },
+  { name: 'Italy', url: 'https://italy.refugee.info/en-us' },
+  { name: 'Bulgaria', url: 'https://bulgaria.refugee.info/en-us'},
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
@@ -47,7 +48,7 @@ export default function Home() {
           className="locale-select-page-content"
           style={{ display: 'flex', flexDirection: 'column' }}
         >
-          <Image src={CuentanosLogo} alt="logo" />
+          <Image src={RefugeeLogo} alt="logo" />
           <div className="locale-select-page-message">{message}</div>
           {sites.map((site) => (
             <LocaleSelectButton
