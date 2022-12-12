@@ -21,7 +21,8 @@ const sites: Site[] = [
   { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
   { name: 'Hungary', url: 'https://hungary.refugee.info/en-us' },
   { name: 'Italy', url: 'https://italy.refugee.info/en-us' },
-  { name: 'Bulgaria', url: 'https://bulgaria.refugee.info/en-us'},
+  //add Bulgaria when instance is created 
+  // { name: 'Bulgaria', url: 'https://bulgaria.refugee.info/en-us'},
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
