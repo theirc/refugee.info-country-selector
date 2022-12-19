@@ -19,7 +19,7 @@ const message =
   'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
   { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
-  { name: 'Italy', url: 'https://italy.refugee.info/en-us' },
+  { name: 'Italy', url: 'https://italy.refugee.info/hc/en-us' },
   // To add Bulgaria and Hungry instances 
 ];
 
