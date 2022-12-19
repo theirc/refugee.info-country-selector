@@ -19,9 +19,8 @@ const message =
   'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
   { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
-  { name: 'Hungary', url: 'https://hungary.refugee.info/en-us' },
-  { name: 'Italy', url: 'https://italy.refugee.info/en-us' },
-  { name: 'Bulgaria', url: 'https://bulgaria.refugee.info/en-us'},
+  { name: 'Italy', url: 'https://italy.refugee.info/hc/en-us' },
+  // To add Bulgaria and Hungry instances 
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
