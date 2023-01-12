@@ -20,7 +20,6 @@ const message =
 const sites: Site[] = [
   { name: 'Greece', url: 'https://greece.refugee.info/en-us' },
   { name: 'Italy', url: 'https://italy.refugee.info/hc/en-us' },
-  { name: 'Hungary', url: 'https://hungary.refugee.info/en-us'},
 ];
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
