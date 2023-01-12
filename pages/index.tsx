@@ -23,6 +23,7 @@ const sites: Site[] = [
   { name: 'Hungary', url: 'https://hungary.refugee.info/en-us'},
 ];
 
+
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
   return (
     <div className="locale-select-page-button-container">
