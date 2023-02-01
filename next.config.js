@@ -4,7 +4,22 @@ const withLess = require('next-with-less');
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  redirects() {
+    return [
+      {
+        source: '/greece/:slug*',
+        destination: 'https://greece.refugee.info',
+        basePath: false,
+        permanent: true,
+      },
+      {
+        source: '/selectors/:slug*',
+        destination: '/',
+        permanent: true,
+      },
+    ];
+  },
+};
 
 module.exports = withLess({
   ...nextConfig,
