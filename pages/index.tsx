@@ -18,11 +18,12 @@ const siteTitle = 'Refugee.info';
 const message =
   'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
+  { name: 'Bulgaria', url: 'https://migrantlife.bg' },
   { name: 'Greece', url: 'https://greece.refugee.info' },
+  { name: 'Hungary', url: 'https://hungary.refugee.info' },
   { name: 'Italy', url: 'https://italy.refugee.info' },
-  { name: 'Hungary', url: 'https://hungary.refugee.info'},
+  { name: 'Slovakia', url: 'https://ukraineslovakia.sk' },
 ];
-
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
   return (

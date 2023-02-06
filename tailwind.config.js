@@ -1,23 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-      './pages/**/*.{js,ts,jsx,tsx}',
-      './components/**/*.{js,ts,jsx,tsx}',
-      './node_modules/@ircsignpost/signpost-base/dist/src/*.{js,ts,jsx,tsx}',
-    ],
-    theme: {
-      extend: {
-        colors: {
-          themeGrayText: '#707070',
-        },
-        backgroundColor: {
-          themeGrayBackground: '#FAFAFA',
-        },
-        fontFamily: {
-          noto: ['Noto Sans'],
-        },
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@ircsignpost/signpost-base/dist/src/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        themeGrayText: '#707070',
+      },
+      backgroundColor: {
+        themeGrayBackground: '#FAFAFA',
+      },
+      fontFamily: {
+        noto: ['Noto Sans'],
       },
     },
-    plugins: [],
-  };
-  
+  },
+  plugins: [],
+};
