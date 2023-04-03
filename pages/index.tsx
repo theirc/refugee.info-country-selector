@@ -1,6 +1,7 @@
 import { Button } from 'antd';
 import Head from 'next/head';
 import Image from 'next/image';
+import Script from 'next/script';
 
 import RefugeeLogo from '../public/LOGO-refugee.png';
 
@@ -41,6 +42,11 @@ function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
 export default function Home() {
   return (
     <>
+      <Script
+        type="text/javascript"
+        src="//script.crazyegg.com/pages/scripts/0076/6807.js"
+        async
+      />
       <Head>
         <title>{siteTitle}</title>
       </Head>
