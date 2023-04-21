@@ -20,6 +20,7 @@ const message =
   'A European information service for refugees, migrants, and asylum-seekers.';
 const sites: Site[] = [
   { name: 'Bulgaria', url: 'https://migrantlife.bg' },
+  { name: 'Czechia', url: 'https://czechia.refugee.info/' },
   { name: 'Greece', url: 'https://greece.refugee.info' },
   { name: 'Hungary', url: 'https://hungary.refugee.info' },
   { name: 'Italy', url: 'https://italy.refugee.info' },
