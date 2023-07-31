@@ -805,10 +805,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@ircsignpost/signpost-base@^14.14.0":
-  version "14.18.0"
-  resolved "https://registry.yarnpkg.com/@ircsignpost/signpost-base/-/signpost-base-14.18.0.tgz#bb82cb308b8ba2c3c4e0fdeaaf5a1ef81265eb7e"
-  integrity sha512-qidi3fZeWpeVrIbXsdqpuG9p/DT+TePR927D+nGkd+1HtpO4cWLRH9A9hww9qo3W/Of90wMMUZJPOF4/ClW3iA==
+"@ircsignpost/signpost-base@^15.13.1":
+  version "15.13.1"
+  resolved "https://registry.yarnpkg.com/@ircsignpost/signpost-base/-/signpost-base-15.13.1.tgz#44747624b5499182a2e9d97276ae84ac8fd848dd"
+  integrity sha512-vmwp2ihZvOYGMJFMe1pFPkYExRmUw19Ji/7veRqx9NzycrSazbcT6A1pZPbLHTQoRXuvn/+bpMtgTS23s6qvIg==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
