@@ -22,7 +22,6 @@ const sites: Site[] = [
   { name: 'Bulgaria', url: 'https://refugeelight.bg/en/' },
   { name: 'Czechia', url: 'https://czechia.refugee.info/' },
   { name: 'Greece', url: 'https://greece.refugee.info' },
-  { name: 'Hungary', url: 'https://hungary.refugee.info' },
   { name: 'Italy', url: 'https://italy.refugee.info' },
   { name: 'Slovakia', url: 'https://ukraineslovakia.sk' },
 ];
