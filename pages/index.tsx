@@ -1,29 +1,27 @@
-import { Button } from 'antd';
-import Head from 'next/head';
-import Image from 'next/image';
-import Script from 'next/script';
+import { Button } from 'antd'
+import Head from 'next/head'
+import Image from 'next/image'
+import Script from 'next/script'
 
-import RefugeeLogo from '../public/LOGO-refugee.png';
+import RefugeeLogo from '../public/LOGO-refugee.png'
 
 interface Site {
-  name: string;
-  url: string;
+  name: string
+  url: string
 }
 
 interface LocaleSelectButtonProps {
-  site: Site;
-  onClick: (e: React.SyntheticEvent) => void;
+  site: Site
+  onClick: (e: React.SyntheticEvent) => void
 }
 
-const siteTitle = 'Refugee.info';
+const siteTitle = 'Refugee.info'
 const message =
-  'A European information service for refugees, migrants, and asylum-seekers.';
+  'A European information service for refugees, migrants, and asylum-seekers.'
 const sites: Site[] = [
-  { name: 'Bulgaria', url: 'https://refugeelight.bg/en/' },
   { name: 'Greece', url: 'https://greece.refugee.info' },
   { name: 'Italy', url: 'https://italy.refugee.info' },
-  { name: 'Slovakia', url: 'https://ukraineslovakia.sk' },
-];
+]
 
 function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
   return (
@@ -35,7 +33,7 @@ function LocaleSelectButton({ onClick, site }: LocaleSelectButtonProps) {
         </Button>
       </a>
     </div>
-  );
+  )
 }
 
 export default function Home() {
@@ -66,5 +64,5 @@ export default function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }
